@@ -1,0 +1,20 @@
+syntax = "proto3";
+option java_package = "com.example.springgrpc.lib";
+option java_multiple_files =true;
+message HelloRequest{
+  int32 uid = 1;
+  string message = 2;
+  string author = 3;
+}
+
+message HelloResponse{
+  int32 uid = 1;
+  string message = 2;
+  string author = 3;
+}
+
+service GreetService{
+  rpc sayHello(HelloRequest) returns(HelloResponse){
+
+  }
+}
