@@ -24,14 +24,9 @@ To run the project, follow these steps:
 2. Clone this repository to your local machine.
 3. Navigate to the project directory.
 4. Run the following command to build the project:
-
-`mvn clean install`
-Once the build is successful, you can start the server by running:
-
-`mvn spring-boot:run`
-
-To run the tests, execute:
-`mvn test
+     `mvn clean install`
+5. Once the build is successful, you can start the server by running:`mvn spring-boot:run`
+6. To run the tests, execute: `mvn test`
 
 
 ## Notes:
